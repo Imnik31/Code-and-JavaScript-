@@ -24,5 +24,5 @@ const userlogIn=true
 const debitCard=true
 
 if (userlogIn && debitCard) {
-    console.log("allow to buy courses");
+    console.log("allow to buy courses for free");
 }
