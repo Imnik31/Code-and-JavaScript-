@@ -1,5 +1,5 @@
-# JavaScript-by-Nikhil
-code repo of JavaScript
+# Chai aur JavaScript 
+Code repository of JavaScript
 
 
 #Documentation
