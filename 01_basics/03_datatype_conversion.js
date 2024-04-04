@@ -2,7 +2,7 @@ let score ="33"
 console.log(typeof score);
 console.log(typeof(score));
 
-let valueInNumber = Number(score)    // to convert a string to string
+let valueInNumber = Number(score)    // to convert a string to number
 console.log(typeof valueInNumber);
 console.log(valueInNumber);
 
@@ -35,10 +35,10 @@ console.log(str3)
 
 //some tricky things
 
-// console.log("1" +2);
-// console.log(1 +"2");
-// console.log("1" +2 + 2);
-// console.log(1 +2 + "2");
+// console.log("1" +2);  =>12
+// console.log(1 +"2");  =>12
+// console.log("1" +2 + 2); =>122
+// console.log(1 +2 + "2"); =>32   intresting   :)
 
 
 //  console.log(+true);
