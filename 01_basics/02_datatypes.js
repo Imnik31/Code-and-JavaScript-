@@ -1,5 +1,5 @@
-"use strict"; // trat all js code as a newer version.
-// alert (3+3) // we areusing node js not browser.
+"use strict"; // treat all js code as a newer version. always write starting of files.
+// alert (3+3) // we areusing node js not browser. use this in browser console or html file.
 
 console.log (3+3)
 console.log("nikhil") 
@@ -10,7 +10,7 @@ console.log("nikhil")
 //bigint- 1234e
 //boolean-true/ false
 //null- standalone value (empty value representation)   // it is an object.
-//undifined-variable initialized but value is not difined
+//undifined-variable initialized but value is not difined => let name;
 //symbol-unique
 
 
@@ -19,3 +19,4 @@ console.log("nikhil")
 //objects
 
 console.log(typeof null);   // to find type of datatype
+// null is a object when we check its type
