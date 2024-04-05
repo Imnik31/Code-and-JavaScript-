@@ -5,10 +5,10 @@ const dc=["superman", "batman"]
 // console.log(marvel)
 // console.log(marvel[3][1])
 
- const allhero=marvel.concat(dc)
+ const allhero=marvel.concat(dc)     // retuen a new array
 console.log(allhero)
 
-const all_new_hero=[...marvel, ...dc]        //spread
+const all_new_hero=[...marvel, ...dc]        //spread     use to combine one or more array
 //console.log(all_new_hero)
 
 const another_array=[1,2,3,[4,5,6],7,[6,7,[5,9]]]       // array in array
@@ -17,7 +17,7 @@ console.log(real_another_array)
 
 console.log(Array.isArray("nikhil"))
 console.log(Array.from("nikhil"))
-console.log(Array.from({name:"nikhil"}))
+console.log(Array.from({name:"nikhil"}))  // intresting it return []
 
 
 let score1=100
