@@ -1,4 +1,4 @@
-let myDate= new Date()
+let myDate= new Date()    // date is an object in js
 console.log(myDate)
 console.log(myDate.toString())
 console.log(myDate.toJSON())
