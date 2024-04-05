@@ -10,7 +10,7 @@ console.log(balance.toFixed(1))         // for the precision value in e-commerce
 
 
 const hundreds= 1000000
-console.log(hundreds.toLocaleString('en-IN'))
+console.log(hundreds.toLocaleString('en-IN'))   // for indian value
 
 
 
@@ -22,7 +22,7 @@ console.log(Math.round(34.4))
 
 console.log(Math.random())
 console.log((Math.random()*10)+1)
-console.log(Math.floor(Math.random()*10)+1)
+console.log(Math.floor(Math.random()*10)+1)   // value will return btw 1-9
 
 const min=10
 const max=20

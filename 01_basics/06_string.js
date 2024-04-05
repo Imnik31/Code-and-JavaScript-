@@ -2,7 +2,7 @@ const name= "nikhil"
 const repoCount=50
 //previous days
 console.log(name+ repoCount+ " value");
-//now days
+//now days  String interpolation
 console.log(` my name is ${name} and my repoCount is ${repoCount}`)
 
 
