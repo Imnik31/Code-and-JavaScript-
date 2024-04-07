@@ -34,7 +34,7 @@ for (let index = 0; index < myarray.length; index++) {
 
 // if (index==5) {
 //     console.log(`detected 5`);
-//     break                       // does not print after break 
+//     break                       // does not print after break and control flow will stop iterations
 // }
 //     console.log(`value of i is ${index}`);
     
