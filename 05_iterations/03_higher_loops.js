@@ -12,9 +12,9 @@ for (const greet of greetings) {
    // console.log(greet);
 }
 
-// maps    // it is know for its unique value and thier orders
+// maps works as key value pair    // it is know for its unique value and thier orders
 
-const map= new Map()   //map are iterable
+const map= new Map()   //map are not iterable
 map.set('IN', "india")
 map.set('USA', "America")
 map.set('fr', "France")

@@ -9,7 +9,7 @@
 
 // const mynums=[1,2,3,4,5,6,7,8,9]
 
-// const newnums=mynums.filter((num)=>num>4)
+// const newnums=mynums.filter((num)=>num>4)     filter returns the return value
 // console.log(newnums);
 
 const mynums=[1,2,3,4,5,6,7,8,9]

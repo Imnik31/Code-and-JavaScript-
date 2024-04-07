@@ -1,3 +1,5 @@
+// for in loop it mostly used on objects.
+
 const myobjects={
     js:"javascript",
     cpp:"c++",
