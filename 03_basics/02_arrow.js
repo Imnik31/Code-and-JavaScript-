@@ -52,7 +52,7 @@ const chai= () =>{
 
 
 //***********implicit return********************* */
-//const addTwo= (num1, num2)=>  num1+num2
+//const addTwo= (num1, num2)=>  num1+num2                         //if we have not use {} then no need of return keyword 
 
 //console.log(addTwo(2,4));
 
