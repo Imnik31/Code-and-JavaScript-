@@ -1,15 +1,21 @@
-const promiseOne = new Promise(function(resolve, reject){
+// 1st method
+
+const promiseOne = new Promise(function(resolve, reject){        // create new promise 
     //Do an async task
     // DB calls, cryptography, network
     setTimeout(function(){
         console.log('Async task is compelete');
-        resolve()
+        resolve()                                        // to connect .then to promise
     }, 1000)
 })
 
-promiseOne.then(function(){
+promiseOne.then(function(){            // consume the promise               // then directly connected to resolve
     console.log("Promise consumed");
 })
+
+
+// second method
+
 
 new Promise(function(resolve, reject){
     setTimeout(function(){
@@ -37,7 +43,7 @@ const promiseFour = new Promise(function(resolve, reject){
         if (!error) {
             resolve({username: "hitesh", password: "123"})
         } else {
-            reject('ERROR: Something went wrong')
+            reject('ERROR: Something went wrong')                  // for the errors
         }
     }, 1000)
 })
@@ -90,7 +96,7 @@ consumePromiseFive()
 //getAllUsers()
 
 fetch('https://api.github.com/users/hiteshchoudhary')
-.then((response) => {
+.then((response) => {                                        // resolve-> .then-> promise
     return response.json()
 })
 .then((data) => {
