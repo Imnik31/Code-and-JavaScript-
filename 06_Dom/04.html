@@ -11,7 +11,7 @@
         <li>Javascript</li>
     </ul>
 </body>
-<script>
+<script>                                  //less optimize basic way
     function addLanguage(langName){
         const li = document.createElement('li');
         li.innerHTML = `${langName}`
@@ -20,7 +20,7 @@
     addLanguage("python")
     addLanguage("typescript")
 
-    function addOptiLanguage(langName){
+    function addOptiLanguage(langName){                        // optimized way
         const li = document.createElement('li');
         li.appendChild(document.createTextNode(langName))
         document.querySelector('.language').appendChild(li)
