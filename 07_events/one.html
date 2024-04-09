@@ -26,6 +26,10 @@
      // attachEvent()
     // jQuery - on
 
+
+
+    // Event types to explore
+
     // type, timestamp, defaultPrevented
     // target, toElement, srcElement, currentTarget,
     // clientX, clientY, screenX, screenY
@@ -37,9 +41,9 @@
 
     // document.getElementById('owl').addEventListener('click', function(e){
     //     console.log("owl clicked");
-    //     e.stopPropagation()
-    // }, false)
-    
+    //     e.stopPropagation()                         // to stop bubbling
+    // }, false)                                        // false means event bubbling most used    first indide code will execute after that outside code will execute
+                                                        // true means capturing mode
     // document.getElementById('google').addEventListener('click',function(e){
     //     e.preventDefault();
     //     e.stopPropagation()
