@@ -18,7 +18,7 @@ Object literal
 
 
 ## 4 pillars
-Abstraction
-Encapsulation
+Abstraction    -> to hide the details
+Encapsulation  -> Rapup the data
 Inheritance
-Polymorphism
+Polymorphism     -> many works
