@@ -16,7 +16,7 @@ let heroPower = {
     }
 }
 
-Object.prototype.hitesh = function(){
+Object.prototype.hitesh = function(){                 // inject own method in js object and it is avilable all connected things to objects      // js has prototypal behavior
     console.log(`hitesh is present in all objects`);
 }
 
@@ -28,6 +28,8 @@ Array.prototype.heyHitesh = function(){
 // myHeros.hitesh()
 // myHeros.heyHitesh()
 // heroPower.heyHitesh()
+
+
 
 // inheritance
 
