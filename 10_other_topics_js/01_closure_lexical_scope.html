@@ -11,6 +11,13 @@
 </body>
 
     <script>
+
+
+        // lexical scoping   
+
+
+
+
     // function init() {
     //     let name = "Mozilla"; 
     //     function displayName() {
@@ -23,11 +30,11 @@
     // function outer(){
     //     let username = "hitesh"
     //     console.log("OUTER", secret);
-    //     function inner(){
+    //     function inner(){                                  // inner fuction can access the things of outer function
     //         let secret = "my123"
     //         console.log("inner", username);
     //     }
-    //     function innerTwo(){
+    //     function innerTwo(){                                // inner two can not take the access of inner function
     //         console.log("innerTwo", username);
     //         console.log(secret);
     //     }
@@ -38,8 +45,12 @@
     // outer()
     // console.log("TOO OUTER", username);
 
+ 
+          // closure
 
-    // function makeFunc() {
+
+
+    // function makeFunc() {                    // in the closure whole memory will be shared(lexical scope) not only functional context
     //     const name = "Mozilla";
     //     function displayName() {
     //         console.log(name);
@@ -51,7 +62,10 @@
     // myFunc();
 
     </script>
-    <script>
+    <script>              // real world problem of lexical sope and closure
+
+
+        
         // document.getElementById("orange").onclick = function(){
         //     document.body.style.backgroundColor = `orange`
         // }
