@@ -27,6 +27,8 @@ const tea = createUser("tea", 250)
 chai.printMe()
 
 
+// functionality of new keyword
+
 /*
 
 Here's what happens behind the scenes when the new keyword is used:
