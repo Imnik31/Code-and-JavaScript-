@@ -10,7 +10,7 @@ class User {
 
 class Teacher extends User{
     constructor(username, email, password){
-        super(username)
+        super(username)                              // to inherit the property from parent class
         this.email = email
         this.password = password
     }
@@ -27,4 +27,4 @@ const masalaChai = new User("masalaChai")
 
 masalaChai.logMe()
 
-console.log(chai instanceof User);
+console.log(chai instanceof User);   // to check inharitance
