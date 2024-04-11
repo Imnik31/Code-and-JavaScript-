@@ -1,4 +1,4 @@
-const descripter = Object.getOwnPropertyDescriptor(Math, "PI")
+const descripter = Object.getOwnPropertyDescriptor(Math, "PI")     // getOwnPropertyDescriptor gives us some hidden properties of object
 
 // console.log(descripter);
 
@@ -6,7 +6,7 @@ const descripter = Object.getOwnPropertyDescriptor(Math, "PI")
 // Math.PI = 5
 // console.log(Math.PI);
 
-const chai = {
+const chai = {                                                       // create is a factory function
     name: 'ginger chai',
     price: 250,
     isAvailable: true,
@@ -18,7 +18,7 @@ const chai = {
 
 console.log(Object.getOwnPropertyDescriptor(chai, "name"));
 
-Object.defineProperty(chai, 'name', {
+Object.defineProperty(chai, 'name', {                          // difine your ownn property
     //writable: false,
     enumerable: true,
     
