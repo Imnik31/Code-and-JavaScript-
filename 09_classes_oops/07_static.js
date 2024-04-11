@@ -7,7 +7,7 @@ class User {
         console.log(`Username: ${this.username}`);
     }
 
-    static createId(){
+    static createId(){                     // static block the property and methods  which will create by parent class for the new instance
         return `123`
     }
 }
