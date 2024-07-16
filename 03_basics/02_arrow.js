@@ -63,3 +63,45 @@ const chai= () =>{
 const addTwo= (num1, num2)=>  ({username:"nikhil"})
 
 console.log(addTwo(2,4));
+
+
+//arrow function diffrent from normal functions
+
+// syntax
+
+const sayhello=()=>{
+    console.log("hey");
+}
+
+sayhello()
+
+//arguments will not work in  arrow function
+  function addnum(){
+    let ans =0
+    for (let i = 0; i < arguments.length; i++) {
+        ans = arguments[i];
+        
+    }
+    return ans
+  }
+
+  addnum(1,2,3,4,5)
+
+
+  // hoisting will not work in arrow function
+   sayhey()
+  const sayhey=()=>{
+   console.log("hi");
+  }
+
+
+  // this keyword
+
+  const obj={
+    value:20,
+    myfunction: function(){
+        console.log(this.value);    // in arrow function this will refer to window object
+    }
+  }
+
+  obj.myfunction()
